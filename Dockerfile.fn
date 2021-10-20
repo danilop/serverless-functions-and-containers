@@ -1,0 +1,6 @@
+FROM public.ecr.aws/lambda/nodejs:14
+COPY app/app.js fn/fn.js fn/package.json ./
+COPY app/public ./public
+RUN npm install
+EXPOSE 3000
+CMD [ "fn.handler" ]

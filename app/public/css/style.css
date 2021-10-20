@@ -1,0 +1,94 @@
+ /* ---------------------------------------------------
+	Simple Clean Slideshow Template
+	Source URL: (https://www.digitaldesignjournal.com/fridays-freebie-clean-slideshow-psd/)
+----------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color: #353b48;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(to right, #F44336 0%, #CDDC39 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+    font-size: 38px;
+    margin: 30px 0px;
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding: 0 0 10px 25px;
+    color: #fff;
+    text-align: left;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    margin: 0;
+    padding: 0 25px 25px 0;
+    text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.effect {
+    box-shadow: 0 11px 6px -6px black;
+    border-radius: 60px;
+}
+
+.section-outer {
+    color: #555;
+    padding: 10px 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    .section-outer {
+        padding: 1.5em 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 930px;
+    }
+}
